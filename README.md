@@ -27,3 +27,10 @@ Start the Rails API and HTML/CSS/JS in the provided folders.
     * `super_name`
     * One of the existing powers
 1. Add a filter to the page that lists all heroines that narrows the list to those that have an existing power
+
+
+## Getting Started
+After forking, cloning, and cd-ing into this repo:
+   1. cd `backend`
+   1. run `bundle`
+   1. rund `db:create`
