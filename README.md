@@ -4,6 +4,12 @@ You've just been hired by 'Marvel Comics' - congratulations! The production staf
 
 We have several different powers and each can be bestowed upon **more than one heroine**. Each heroine can only have **one power**.
 
+## Getting Started
+After forking, cloning, and cd-ing into this repo:
+   1. cd `backend`
+   1. run `bundle`
+   1. run `db:create`
+
 ## Tasks
 
 Start the Rails API and HTML/CSS/JS in the provided folders.
@@ -29,8 +35,4 @@ Start the Rails API and HTML/CSS/JS in the provided folders.
 1. Add a search filter to the page that narrows the list of heroines to those that have the power selected by user (can add to links so when user clicks on the name of the power, the power show page shows the heroines with that power).
 
 
-## Getting Started
-After forking, cloning, and cd-ing into this repo:
-   1. cd `backend`
-   1. run `bundle`
-   1. run `db:create`
+
