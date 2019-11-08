@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method='POST' action='http://localhost:3000/heroines'>
+        <label>Heroine Name</label>
+            <input name='name' id='name'/>
+        <label>Super Name</label>
+            <input name='super_name' id='super_name'/>
+        <label>Super Power</label>
+            <select name='power_id' id='dropDown'>
+                <option selected disabled>I HAVE THE POWER!!</option>
+            </select>
+            <input type='submit'/>
+    </form>
+    <div class='heroineCards'></div>
+    <script src='app.js'></script>
+</body>
+</html>
